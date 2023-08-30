@@ -62,7 +62,7 @@
     <img src="./Images/horse-8193368_1280.jpg" height="400px" width="49%" alt="">
 
     <!-- Marquee -->
-    <marquee behavior="alternate" direction="rigth" scrollamount = "100" ><mark>Hello World</mark></marquee>
+    <marquee behavior="scrolling" direction="left" scrollamount = "10" scrolldelay="10" ><mark>Hello World</mark></marquee>
 
     <!-- Anchor TAG -->
     <a href="https://www.flipkart.com/travel/flights?param=Travel_FKHP_DT-HPW_Rakhi-IndiSpicAirAsia&otracker=hp_bannerads_1_2.bannerAdCard.BANNERADS_x_YBXSF48GUVTF" target="_blank">Flipkart</a>
@@ -89,7 +89,7 @@
     <!-- <video src="./Videos/Naah Video Song.mp4" controls  width="50%" height="500px"></video> -->
 
     <a href="https://www.flipkart.com/travel/flights?param=Travel_FKHP_DT-HPW_Rakhi-IndiSpicAirAsia&otracker=hp_bannerads_1_2.bannerAdCard.BANNERADS_x_YBXSF48GUVTF"><img src="./Images/flipkart-logo-39906.png" alt="" width="50px" height="50px"></a>
-    <a href="https://www.instagram.com/"><img src="./Images/insta.jpg" alt="" width="50px" height="50px"></a>
+    <a href="https://www.instagram.com/"><img src="./Images/instagram-3814080_1920.png" alt="" width="50px" height="50px"></a>
     
     <h1>List </h1>
     <h3>ol list</h3>
@@ -256,35 +256,37 @@
 
     <h1>Form Tag</h1>
 
-<fieldset>
-    <legend>Registration form</legend>
-    <form action="#" method="get">
+<fieldset style="text-align: center; margin: 10px; padding: 20px;">
+    <legend>Registration form</legend >
+    <form action="#" method="get" >
         <label for="name">Name</label>
-        <br>
         <input type="text" name="" id="name" placeholder="Enter your name">
         <br>
-        <label for="email">Email</label>
         <br>
+        <label for="email">Email</label>
         <input type="email" name="" id="email">
         <br>
-        <label for="Dob">DOB</label>
         <br>
+        <label for="Dob">DOB</label>
         <input type="datetime-local" name="" id="Dob">
         <br>
-        <label for="age">Age</label>
         <br>
+        <label for="age">Age</label>
         <input type="number" name="" id="age">
+        <br>
         <br>
         <label for="gender"  >Gender:</label>
         <input type="radio" name="gender" id="gender" value="male">Male
-        <input type="radio" name="gender" id="gender" value="male">Female
+        <input type="radio" name="gender" id="gender" value="female">Female
         <input type="radio" name="gender" id="gender" value="Other">Other
+        <br>
         <br>
         <label for="course">Course</label>
         <input type="checkbox" name="course" id="course" value="Sql">Sql
         <input type="checkbox" name="course" id="course" value="Java">Java
         <input type="checkbox" name="course" id="course" value="Web">Web
         <input type="checkbox" name="course" id="course" value="MT">MT
+        <br>
         <br>
         <label for="branch">Branch</label>
         
@@ -293,18 +295,23 @@
                 <option value=""></option>
                 <option value="Hadapsar">Hadapsar</option>
                 <option value="Wakad">Wakad</option>
+                <option value="Deccan">Deccan</option>
             </optgroup>
         </select>
+        <br>
         <br>
         <label for="file">File</label>
         <input type="file" name="" id="file">
         <br>
         <br>
+        <label for="file">Images</label>
         <input type="file" name="" id="file" accept="image/*">
+        <br>
         <br>
         <label for="address">Address</label>
         <br>
         <textarea name="" id="address" cols="30" rows="10"></textarea>
+        <br>
         <br>
         <label for="password">Password</label>
         <br>
