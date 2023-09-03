@@ -1,0 +1,25 @@
+p::first-line{
+    color: orange;
+}
+
+p::first-letter{
+    color: blue;
+    font-size: 100px;
+}
+
+p::after{
+    content: url(https://em-content.zobj.net/source/samsung/78/grinning-face_1f600.png)
+}
+
+p::before{
+    content: url(https://em-content.zobj.net/source/apple/354/grinning-face_1f600.png);
+}
+
+p::selection{
+    color: red;
+    background-color: black;
+}
+
+li::marker{
+    color: red;
+}

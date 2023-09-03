@@ -1,0 +1,18 @@
+P{
+    color: blue;
+}
+
+#p2{
+    color: aqua;
+}
+
+.pci{
+    background-color: black;
+}
+p,#p2,.pci{
+    text-align: center;
+}
+
+*{
+    background-color: orange;
+}
