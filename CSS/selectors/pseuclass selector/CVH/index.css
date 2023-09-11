@@ -1,0 +1,31 @@
+ p:first-child{
+    color: red;
+}
+p:first-of-type{
+    background-color: black;
+}
+p:last-child{
+    color: yellow;
+}
+
+p:last-of-type{
+    background-color: green;
+} 
+
+li:first-child{
+    color: red;
+}
+li:first-of-type{
+    background-color: black;
+}
+li:last-child{
+    color: yellow;
+}
+
+li:last-of-type{
+    background-color: green;
+} 
+
+/* p:nth-child(1){
+    color: crimson;
+} */   

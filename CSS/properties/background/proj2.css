@@ -1,0 +1,18 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+    background: -webkit-image-set("https://i.pinimg.com/originals/13/44/cd/1344cdb8afc60644ab100307da6c3487.gif");
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h2{
+    font-size: 100px;
+    text-align: center;
+    background-position: center;
+    background: -webkit-linear-gradient(green ,blue,yellow,orange,purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,8 @@
+h1{
+    border-bottom: 10px dashed red;
+    border-left: 5px dotted green;
+    border-top: 1px solid orange;
+    border-right: 15px double purple;
+    padding: 50px 100px;
+    margin: 50px 20px 80px 100px;
+}

@@ -1,0 +1,23 @@
+/* section{
+    background: red;
+    height: 100vh;
+} */
+
+
+/* section{
+    background: linear-gradient( 30deg,red,yellow,orange);
+    height: 100vh;
+} */
+
+/* section{
+    background: red;
+} */
+
+section{
+    background: url("https://cdn.pixabay.com/photo/2023/04/03/17/46/coffee-7897414_1280.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

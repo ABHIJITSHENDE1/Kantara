@@ -1,0 +1,19 @@
+section{
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
+/* for horizontal justify content
+   and for vertical align item */
+
+div{
+    background: linear-gradient(teal,blue);
+    height: 150px ;
+    width: 150px;
+    color: wheat;
+}

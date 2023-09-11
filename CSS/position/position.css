@@ -1,0 +1,41 @@
+section{
+    height: 50vh;
+    background: black;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* #box2{
+    position: static;
+    top: 20px;    no change
+} */
+
+/* #box2{
+    position: relative;
+    top: 20px;
+    right: 20px;
+} */
+
+/* #box2{
+    position: absolute;
+    top: 30px;
+
+} */
+
+/* #box2{
+    position: fixed;
+    left: 80%;
+    top : 80%
+    
+} */
