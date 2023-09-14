@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+    box-sizing: border-box;
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+div{
+    width: 80%;
+    height: 85vh;
+    background-image: url("https://cdn.pixabay.com/photo/2023/08/27/14/06/automobile-8217162_640.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 80px;
+    box-shadow: 8px 7px rgba(255, 255, 255, 0.5) ;
+    animation: imgChange 10s 4s infinite linear;
+}
+
+
+
+@keyframes imgChange {
+    
+    /* 0%{
+        transform: rotateX(40deg);
+        background-image: url("https://images.pexels.com/photos/18076601/pexels-photo-18076601/free-photo-of-cidade.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+        animation-delay: 10s;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+
+    20%{
+        transform: rotateX(30deg);
+        background-image: url("https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_1280.jpg");
+        animation-delay: 10s;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  
+    40%{
+        transform: rotateX(30deg);
+        background: url("https://cdn.pixabay.com/photo/2020/01/01/14/59/person-4733756_640.jpg");
+        animation-delay: 10s;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+60%{
+    transform: rotateX(40deg);
+        background: url("https://cdn.pixabay.com/photo/2023/09/10/12/32/robin-redbreast-8244919_640.png");
+        animation-delay: 10s;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+80%{
+    transform: rotateX(30deg);
+        background: url("https://cdn.pixabay.com/photo/2023/09/10/13/39/red-admiral-8244988_640.png");
+        animation-delay: 10s;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+}

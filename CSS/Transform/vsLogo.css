@@ -1,0 +1,24 @@
+div{
+    margin-top: 50px;
+    /* border-bottom: 100px solid rgb(79, 79, 249); */
+    width: 350px;
+    height: 250px;
+    border-top: 100px solid rgb(79, 79, 249);
+    border-right: 100px solid rgb(79, 79, 249);
+    transform: skewY(-30deg);
+    position: relative;
+    
+}
+
+div::before{
+    content: "";
+    border-bottom: 100px solid rgb(79, 79, 249);
+    width: 400px;
+    height: 250px;
+    z-index: 1;
+    position: absolute;
+    top: -200px;
+    right: -100px;
+    transform: skewY(45deg);
+    
+}

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; 
+}
+/* For Navbar */
+nav{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background-color: #f2f2f2;  
+}
+
+#navbar{
+    width: 100%;
+    height: 45px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+    justify-content: space-around;
+    align-items: center; 
+    position: sticky;
+    top: 0;
+}
+
+.item{
+    display: flex;
+
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+    background-color: #f2f2f2;
+}
+
+
+#navbar a,i{
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: #1D1D1F;
+    
+}
+
+#check, .checked{
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    #navbar .item{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        gap: 5%;
+        justify-content: flex-start;
+        background: linear-gradient(gray,white,gray);
+        color: black;
+        height: 90vh;
+        width: 100%;
+        top: 50px;
+        left: 99%;
+        transition: all 1s;
+    }
+
+    
+    
+
+    
+
+    .checked {
+        display: block;
+        position:relative;
+        left: 80%;
+    }
+
+    .fa-brands{
+        position: relative;
+        right: 35%;
+    }
+  
+    .fa-solid{
+        position: relative;
+        
+    }
+
+
+    
+    #check:checked~.item{
+        left: 60%;
+        gap: 5%;
+        
+        
+    }
+}
+
+/* ALL MOBILES */
+.allMovies{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: space-evenly;
+
+   
+}
+
+.allMovies div,img{
+   
+   
+}
+
+
+
+
+
+
+
+
